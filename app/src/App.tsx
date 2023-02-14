@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Routers from './appRoutes/Routers';
 
 function App() {
   return (
-    <div className="App">
-  1
-    </div>
+    
+  <Routers />
+    
   );
 }
 
