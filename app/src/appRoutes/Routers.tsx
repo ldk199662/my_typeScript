@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../components/Home';
+import List from '../components/LIst';
 import Random from '../components/Random';
 import Room from '../components/Room';
 
@@ -11,6 +12,7 @@ const Routers = () => {
 					<Route path="/room" element={<Room />} />
 					<Route path="/home" element={<Home />} />
 					<Route path="/random" element={<Random />} />
+					<Route path="/list" element={<List />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
