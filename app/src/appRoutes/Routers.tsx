@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import List from '../components/LIst';
 import Random from '../components/Random';
+import Recomment from '../components/Recomment';
 import Room from '../components/Room';
 
 const Routers = () => {
@@ -13,6 +14,7 @@ const Routers = () => {
 					<Route path="/home" element={<Home />} />
 					<Route path="/random" element={<Random />} />
 					<Route path="/list" element={<List />} />
+					<Route path="/recomment" element={<Recomment />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
