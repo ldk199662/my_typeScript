@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const useAudio = (url : any) => {
+const useAudio = (url: any) => {
 	const sound = useMemo(() => new Audio(url), [url]);
 	const [song, setSong] = useState(false);
 
