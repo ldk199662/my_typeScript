@@ -7,6 +7,10 @@ const Top = styled.div`
 const Mid = styled.div`
 	background-color: blue;
 `;
+const MidBox = styled.div`
+	padding: 10px;
+	margin: 10px;
+`;
 
 const Foot = styled.div`
 	background-color: pink;
@@ -16,7 +20,9 @@ const List = () => {
 	return (
 		<>
 			<Top>0</Top>
-			<Mid>1</Mid>
+			<Mid>
+				<MidBox>1</MidBox>
+			</Mid>
 			<Foot>2</Foot>
 		</>
 	);
