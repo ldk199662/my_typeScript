@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Wrap = styled.div`
@@ -20,11 +21,18 @@ const MainWrap = styled.section`
 	}
 `;
 const Home = () => {
+	const navigate = useNavigate();
+
+	const navigateRandom = () => {
+		navigate('/random');
+	};
+
 	return (
 		<>
 			<Wrap>
 				<MainWrap>1</MainWrap>
 			</Wrap>
+			<button onClick={navigateRandom}>Random</button>
 		</>
 	);
 };
