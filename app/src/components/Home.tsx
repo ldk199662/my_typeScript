@@ -27,12 +27,17 @@ const Home = () => {
 		navigate('/random');
 	};
 
+	const navigateList = () => {
+		navigate('/list');
+	};
+
 	return (
 		<>
 			<Wrap>
 				<MainWrap>1</MainWrap>
 			</Wrap>
 			<button onClick={navigateRandom}>Random</button>
+			<button onClick={navigateList}>List</button>
 		</>
 	);
 };

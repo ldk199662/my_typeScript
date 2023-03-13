@@ -5,10 +5,16 @@ const Top = styled.div`
 `;
 
 const Mid = styled.div`
-	background-color: blue;
+	background-color: black;
+	width: 100%;
+	height: 1000px;
 `;
 const MidBox = styled.div`
-	padding: 10px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5%;
+	width: 200px;
+	height: 200px;
 	margin: 10px;
 `;
 
@@ -21,7 +27,7 @@ const List = () => {
 		<>
 			<Top>0</Top>
 			<Mid>
-				<MidBox>1</MidBox>
+				<MidBox>List</MidBox>
 			</Mid>
 			<Foot>2</Foot>
 		</>
