@@ -19,7 +19,12 @@ const MidBox = styled.div`
 `;
 
 const Foot = styled.div`
-	background-color: pink;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 5%;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
 `;
 
 const List = () => {
