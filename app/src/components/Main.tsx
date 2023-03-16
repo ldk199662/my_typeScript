@@ -6,8 +6,8 @@ export interface Iprops {
 
 const MainScreenContainer = styled.div`
 	height: 100vh;
-	background-image: url('/path/to/background-image.jpg');
 	background-size: cover;
+	background-color: black;
 	filter: brightness(50%);
 	display: flex;
 	justify-content: center;

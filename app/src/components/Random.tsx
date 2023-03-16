@@ -1,12 +1,20 @@
 import styled from 'styled-components';
 
 const TopWrap = styled.div`
-	width: 100%;
-	height: 150px;
-	background-color: black;
+	height: 10vh;
+	background-color: #282626;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `;
 const MiddleWrap = styled.div`
+	height: 100vh;
 	background-color: black;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `;
 
 const RandomBoxWrap = styled.div`
@@ -26,7 +34,7 @@ const RandomBox = styled.div`
 	margin: 28px;
 	height: 400px;
 	width: 400px;
-	background-color: whitesmoke;
+	background-color: white;
 	border: 1px solid white;
 	border-radius: 5%;
 `;
@@ -34,7 +42,7 @@ const RandomBox = styled.div`
 const Random = () => {
 	return (
 		<>
-			<TopWrap>1</TopWrap>
+			<TopWrap></TopWrap>
 			<MiddleWrap>
 				<RandomBoxWrap>
 					<RandomBox>Random List</RandomBox>
